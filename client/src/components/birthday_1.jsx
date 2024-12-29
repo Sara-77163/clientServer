@@ -13,7 +13,7 @@ const Birthday_1=()=>
                age>18?alert(`${name} is over than 18 years old`):alert(`Happy Birthday! you are ${age} years old`)}} >age</button>
                
             <br/>
-            {age>18?<h1 style={{color:"pink"}}>{name} is over than 18 years old</h1>:<></>}
+            {age>18?<h1 style={{color:"red"}}>{name} is over than 18 years old</h1>:<></>}
             <input onChange={(e)=>{setName(e.target.value)}}></input>
            
             </>
