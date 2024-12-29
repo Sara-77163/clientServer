@@ -1,6 +1,6 @@
 const pepole=[
     {id:1,
-      name:"sari",
+      name:"sara",
       age:20,
       city:"jeruzalem"
     },
